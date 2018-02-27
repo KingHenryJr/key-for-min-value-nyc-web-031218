@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     if name_hash == {}
       return nil
     else 
-      lowest_value == nil || price < lowest_price
+      lowest_value == nil || price < lowest_value
         lowest_value = item
         lowest_price = price 
     end 
