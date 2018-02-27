@@ -4,12 +4,12 @@
 def key_for_min_value(name_hash)
   // returns key of minimum value 
   lowest_value = nil
-  lowest
+  lowest_key = nil
   
   
   name_hash.collect { |item, price| 
     if    
-      return item
+      lowest_value
     else 
       return nil
   }
