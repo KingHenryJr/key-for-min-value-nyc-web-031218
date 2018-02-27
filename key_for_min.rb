@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   
   name_hash.collect { |item, price| 
     if    
-      lowest_value
+      lowest_value <
     else 
       return nil
   }
